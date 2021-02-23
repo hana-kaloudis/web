@@ -19,6 +19,21 @@ body {
 
 
 /*
+  puts border around images
+*/
+
+img {border: 5px solid #3F250B}
+
+/*
+  changes body text colour to the same brown as the headings
+*/
+
+p {
+  color: #3F250B;
+}
+
+
+/*
   changes link colour to the same brown as the headings
 */
 
@@ -32,6 +47,15 @@ a {
 */
 
 a:visited {
-  color: pink;
+  color: hotpink;
 }
+
+ul { list-style: none; } /* Remove default bullets */
+
+li::before {
+    content: "\25B7"; /* bullet symbol to triangle*/
+    color: #3F250B;  /* bullet color to the brown */
+    font-size: 15px
+}
+
 
