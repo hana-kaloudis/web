@@ -50,6 +50,10 @@ a:visited {
   color: hotpink;
 }
 
+/*
+  bullet styling
+*/
+
 ul { list-style: none; } /* Remove default bullets */
 
 li::before {
